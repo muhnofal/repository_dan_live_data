@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Architecture Component</string>
+    <string name="movie">Movie</string>
+    <string name="tv_show">TV SHOW</string>
+    <string name="film_name">Spider-Man: Into the Spider-Verse (2018)</string>
+    <string name="film_rating">8.0</string>
+    <string name="film_release_date">12/14/2018 (US)</string>
+    <string name="film_time">1h 57m</string>
+    <string name="film_genre">Action, Adventure, Animation, Science Fiction, Comedy</string>
+    <string name="overview">OVERVIEW</string>
+    <string name="film_overview">Naruto Shippuuden is the continuation of the original animated TV series Naruto.The story revolves around an older and slightly more matured Uzumaki Naruto and his quest to save his friend Uchiha Sasuke from the grips of the snake-like Shinobi, Orochimaru. After 2 and a half years Naruto finally returns to his village of Konoha, and sets about putting his ambitions to work, though it will not be easy, as He has amassed a few (more dangerous) enemies, in the likes of the shinobi organization; Akatsuki.</string>
+    <string name="share_movie">Share Movie</string>
+    <string name="share_tv_show">Share Tv Show</string>
+</resources>

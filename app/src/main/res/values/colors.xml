@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="black_blue">#0c1b34</color>
+    <color name="black_blue_to_white">#152745</color>
+    <color name="grey">#8C8C8C</color>
+    <color name="grey_to_white">#D3D3D3</color>
+    <color name="yello_rating">#FFC923</color>
+    <color name="blue_ligts">#1257CC</color>
+    <color name="transparant">#008C8C8C</color>
+
+</resources>
