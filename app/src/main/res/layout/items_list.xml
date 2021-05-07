@@ -132,16 +132,29 @@
         tools:ignore="ContentDescription" />
 
     <TextView
-        android:id="@+id/time"
+        android:id="@+id/popularity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:text="@string/film_time"
+        android:text="@string/moviePopularity"
+        android:textColor="#ACABAB"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/card_img"
+        app:layout_constraintStart_toEndOf="@+id/popularity2"
+        app:layout_constraintTop_toTopOf="@+id/card_img"
+        app:layout_constraintVertical_bias="0.936" />
+
+    <TextView
+        android:id="@+id/popularity2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="@string/popularityText"
         android:textColor="#ACABAB"
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="@+id/card_img"
         app:layout_constraintStart_toEndOf="@+id/card_img"
         app:layout_constraintTop_toTopOf="@+id/card_img"
-        app:layout_constraintVertical_bias="0.916" />
+        app:layout_constraintVertical_bias="0.936" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

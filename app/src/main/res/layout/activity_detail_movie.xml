@@ -20,7 +20,7 @@
             android:layout_height="250dp"
             android:scaleType="centerCrop"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/img"
+            tools:srcCompat="@drawable/img"
             tools:layout_editor_absoluteX="0dp"
             tools:ignore="ContentDescription" />
 
@@ -43,7 +43,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="0"
                 android:fontFamily="sans-serif-condensed-medium"
-                android:text="@string/film_name"
+                tools:text="@string/film_name"
                 android:textColor="@color/grey_to_white"
                 android:textSize="18sp"
                 android:textStyle="bold"
@@ -61,7 +61,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="0"
                     android:fontFamily="sans-serif-condensed-medium"
-                    android:text="@string/film_rating"
+                    tools:text="@string/film_rating"
                     android:textColor="@color/yello_rating"
                     android:textSize="18sp"
                     android:textStyle="bold"
@@ -126,17 +126,17 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif-condensed-medium"
-                    android:text="@string/film_release_date"
+                    tools:text="@string/film_release_date"
                     android:textColor="@color/grey_to_white"
                     android:textSize="14sp" />
 
                 <TextView
-                    android:id="@+id/movieTime"
+                    android:id="@+id/moviePopularity"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="10dp"
                     android:fontFamily="sans-serif-condensed-medium"
-                    android:text="@string/film_time"
+                    tools:text="@string/film_time"
                     android:textColor="@color/grey_to_white"
                     android:textSize="14sp" />
 
@@ -149,7 +149,7 @@
                 android:layout_marginTop="10dp"
                 android:fontFamily="sans-serif-condensed-medium"
                 android:paddingBottom="15dp"
-                android:text="@string/film_genre"
+                tools:text="@string/film_genre"
                 android:textColor="@color/grey_to_white"
                 android:textSize="15sp" />
 
@@ -177,7 +177,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-condensed"
             android:padding="10dp"
-            android:text="@string/film_overview"
+            tools:text="@string/film_overview"
             android:textAlignment="textStart"
             android:textColor="@color/grey_to_white"
             android:textSize="18sp"
@@ -203,6 +203,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/movieOverview"
             app:layout_constraintVertical_bias="0.0" />
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

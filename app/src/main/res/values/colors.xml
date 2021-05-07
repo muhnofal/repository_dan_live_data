@@ -12,5 +12,6 @@
     <color name="yello_rating">#FFC923</color>
     <color name="blue_ligts">#1257CC</color>
     <color name="transparant">#008C8C8C</color>
+    <color name="white_to_transparant">#41FFE4E4</color>
 
 </resources>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.architecturecomponent">
+    package="com.example.repositorydanlivedata">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -11,19 +11,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ArchitectureComponent">
-        <activity
-            android:name=".ui.detail.DetailTvShowActivity"
-            android:configChanges="">
 
+        <activity
+            android:name="com.example.repositorydanlivedata.ui.detail.DetailTvShowActivity"
+            android:configChanges="">
         </activity>
-        <activity android:name=".ui.detail.DetailMovieActivity" />
-        <activity android:name=".ui.home.HomeActivity">
+
+        <activity
+            android:name="com.example.repositorydanlivedata.ui.detail.DetailMovieActivity"
+            android:configChanges=""/>
+
+        <activity
+            android:name="com.example.repositorydanlivedata.ui.home.HomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
+
             </intent-filter>
         </activity>
+
     </application>
 
 </manifest>
